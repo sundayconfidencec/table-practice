@@ -1,0 +1,45 @@
+body {
+    margin-top: 50px;
+    align-items: center;
+    background-color: whitesmoke;
+    color: black;
+
+}
+.tables {
+    margin: 10px auto;
+    text-align: center;
+}
+
+table, th, td {
+    border-right: 1px black solid;
+}
+td:last-child {
+    border: none;
+}
+table {
+    border: 2px solid black;
+    margin: auto;
+}
+.tablerow {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    
+}
+h1 {
+    font-size: 15px;
+}
+th {
+    font-size: 9px;
+    font-weight: 900 ;
+    border-bottom: 1px solid black;
+    
+    padding: 10px 20px;
+}
+td {
+    padding: 12px 22px;
+}
+td:hover {
+    background-color: red;
+    
+}
